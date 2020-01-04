@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+}
+
+.container{
+    margin: auto;
+    text-align: center;
+    display: flex;
+    border: 10px solid orangered;
+    align-items: center;
+    width: 480px;
+    height: 480px;
+    padding: auto;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 30px;
+    height: 30px;
+    box-sizing: border-box;
+    background-color: lightgray;
+}
