@@ -1,5 +1,9 @@
 body {
     text-align: center;
+    padding: 25px;
+    background: url(/images/2927262.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
 }
 
 .container{
@@ -7,19 +11,20 @@ body {
     text-align: center;
     display: flex;
     border: 10px solid orangered;
-    align-items: center;
-    width: 480px;
-    height: 480px;
-    padding: auto;
-    margin: auto;
+    width: 512px;
+    height: 512px;
     justify-content: center;
-    align-content: center;
+    align-content: stretch;
     flex-wrap: wrap;
+    padding: 0;
 }
 
 .box {
-    width: 30px;
-    height: 30px;
+    display: flex;
+    width: 32px;
+    height: 32px;
     box-sizing: border-box;
     background-color: lightgray;
+    flex: 1 1 auto;
+    margin: 0;
 }
